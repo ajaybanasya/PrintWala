@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="About Print Wala - Trusted Printing Partner in India">
+<meta name="description" content="Print Wala is a leading printing service provider in India, specializing in high-quality PVC card printing, Aadhaar card prints, PAN card prints, and more.">
+<meta name="keywords" content="Print Wala, about us, best printing services, Aadhaar card print, PAN card printing, business cards, ID cards, fast delivery">
+<meta name="author" content="Print Wala - Ajay Banasya">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#D40000">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="About Print Wala - Trusted Printing Partner in India">
+<meta property="og:description" content="We provide high-quality PVC printing services across India, including Aadhaar, PAN, DL, and business cards.">
+<meta property="og:url" content="https://www.PrintWala.in/about">
+<meta property="og:image" content="https://www.PrintWala.in/img/about-banner.png">
+<meta property="og:site_name" content="Print Wala">
+<meta property="og:locale" content="en_US">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Print Wala",
+  "url": "https://www.PrintWala.in",
+  "logo": "https://www.PrintWala.in/img/logo.png",
+  "founder": {
+    "@type": "Person",
+    "name": "Ajay Banasya",
+    "jobTitle": "Founder & CEO",
+    "sameAs": [
+      "https://www.instagram.com/ajaybanasya",
+      "https://youtube.com/@AllEmitraSolutionOfficial",
+      "https://www.facebook.com/AjayBanasya"
+    ]
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91 97722 71828",
+    "contactType": "customer service",
+    "availableLanguage": ["English", "Hindi"]
+  }
+}
+</script>
+<!-- Favicon -->
+<link rel="icon" href="./img/logo.png" type="image/x-icon">
+<!-- Title -->
+<title>Contact Us - Print Wala | Support & Printing Inquiries</title>
+<link rel="stylesheet" href="./css/contact.css" type="text/css" media="all" />
+</head>
+<body>
+    
+  <!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">
+    <img src="./img/logo.png" alt="Print Wala Logo"> <!-- Replace with your logo -->
+    <span id="userEmail" style="display:none; font-weight: bold;"></span>
+  </div>
+  <ul class="nav-links">
+       <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#services">Services</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="orders.html">Orders</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    
+    <li id="authLinks">
+      <!-- ✅ Yahan Firebase Auth Ke Basis Pe Button Change Hoga -->
+      <a href="login.html" id="loginBtn">Login</a>
+    </li>
+    <li id="authLinks">
+      <a href="#" id="logoutBtn" style="display: none;">Logout</a>
+      <a href="signup.html" id="signupBtn">Signup</a>
+    </li>
+    
+  </ul>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</nav>
+  <div style="height: 80px;"></div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>Contact Us Today</h1>
+        <p>We're happy to answer your questions!</p>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form">
+      <h2>Contact Us</h2>
+<form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="d1ceb9fb-712a-4d45-a63a-ede2c1ca7dae">
+  
+  <input type="text" id="name" name="name" placeholder="Your Name" required>
+  <div class="error" id="nameError"></div>
+  
+  <input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
+  <div class="error" id="phoneError"></div>
+  
+  <select id="subject" name="subject" required>
+    <option value="">Select Subject</option>
+    <option value="support">Support</option>
+    <option value="feedback">Feedback</option>
+    <option value="complaint">Complaint</option>
+    <option value="doubt">Doubt</option>
+  </select>
+  <div class="error" id="subjectError"></div>
+  
+  <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+  <div class="error" id="messageError"></div>
+  
+  <!-- Honeypot Spam Protection -->
+  <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+  
+  <button type="submit" id="submitBtn">Submit Form</button>
+</form>
+ </div>
+    </section>
+      
+<!-- Contact Section (Reach Us) -->
+<section id="reach">
+  <h2>Get in Touch</h2>
+  <div class="contact-container">
+    
+    <!-- WhatsApp -->
+    <a href="https://wa.me/919772271828?text=Hello,%20I%20am%20interested%20in%20your%20services" class="contact-card">
+      <div class="icon-container" style="background: #FFEEEE;">
+        <img src="https://founder0techsolvy.github.io/Imgsparsh/wa.png" alt="WhatsApp">
+      </div>
+      <h3 style="color: #FF0000;">WHATSAPP</h3>
+      <p>+91 9772 271828</p>
+    </a>
+    
+    <!-- Phone -->
+    <a href="tel:+919772271828" class="contact-card">
+      <div class="icon-container" style="background: #FFE5E5;">
+        <img src="https://founder0techsolvy.github.io/Imgsparsh/phone.png" alt="Phone">
+      </div>
+      <h3 style="color: #FF0000;">PHONE</h3>
+      <p>+91 97722 71828</p>
+    </a>
+    
+    <!-- Email -->
+    <a href="mailto:ajaybanasya@gmail.om?subject=Inquiry" class="contact-card">
+      <div class="icon-container" style="background: #FFDDC1;">
+        <img src="https://founder0techsolvy.github.io/Imgsparsh/email.png" alt="Email">
+      </div>
+      <h3 style="color: #FF0000;">EMAIL</h3>
+      <p>ajaybanasya@gmail.com</p>
+    </a>
+    
+    <!-- Address -->
+    <a href="https://maps.app.goo.gl/Gv4xwofZbVeRA3Y36" class="contact-card">
+      <div class="icon-container" style="background: #FEE2E2;">
+        <img src="https://founder0techsolvy.github.io/Imgsparsh/address.png" alt="Address">
+      </div>
+      <h3 style="color: #FF0000;">ADDRESS</h3>
+      <p>
+        Lalsot, Dausa<br> Rajasthan - 303503<br>
+      </p>
+    </a>
+    
+  </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer>
+  <div class="footer-overlay"></div> <!-- Animated Background Overlay -->
+  
+  <!-- Top Section with Title & Description -->
+  <div class="footer-intro">
+    <h2>PrintWala.in By Mr. Ajay Banasya</h2>
+    <div class="underline"></div>
+    <p>Providing high-quality ID card printing, passport photos, and document printing services with fast delivery.</p>
+  </div>
+  
+  <div class="footer-container">
+    
+    <!-- Left Section - Quick Links -->
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="index.html#faqs">FAQs</a></li>
+        <li><a href="index.html#testimonials">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    
+    <!-- Middle Section - Services -->
+    <div class="footer-section">
+      <h3>Our Services</h3>
+      <ul>
+        <li><a href="dl.html">DL Card Printing</a></li>
+        <li><a href="rc.html">RC Card Printing</a></li>
+        <li><a href="pan.html">PAN Card Printing</a></li>
+        <li><a href="vid.html">Voter ID Printing</a></li>
+        <li><a href="photo.html">Passport Size Photos</a></li>
+        <li><a href="aadhar.html">Aadhar Card Printing</a></li>
+        <li><a href="ration.html">Ration Card Printing</a></li>
+        <li><a href="ayushman.html">Ayushman Card Printing</a></li>
+        <li><a href="eshram.html">E-Shram Card Printing</a></li>
+        <li><a href="abc.html">ABC Card Printing</a></li>
+        <li><a href="uan.html">UAN Card Printing</a></li>
+        
+      </ul>
+    </div>
+    
+    <!-- Right Section - Contact Info -->
+    <div class="footer-section">
+      <h3>Contact Information</h3>
+      <p><a href="tel:+919772271828">+91 97722 71828</a></p>
+      <p><a href="mailto:ajaybanasya@gmail.com">ajaybanasya@gmail.com</a></p>
+      <p>Lalsot, Dausa, Rajasthan - 303503</p>
+      
+      <!-- Social Media Icons -->
+      <div class="social-icons">
+        <a href="https://www.facebook.com/AjayBanasya"><img src="https://img.icons8.com/ios-filled/50/FF0000/facebook-new.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/ajaybanasya"><img src="https://img.icons8.com/ios-filled/50/FF0000/instagram.png" alt="Instagram"></a>
+        <a href="https://youtube.com/@AllEmitraSolutionOfficial"><img src="https://img.icons8.com/ios-filled/50/FF0000/youtube.png" alt="YouTube"></a>
+      </div>
+    </div>
+    
+  </div>
+  
+  <!-- Bottom Section -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 Print Wala. All Rights Reserved.</p>
+  </div>
+</footer>
+
+    
+    
+    <script src="../js/contact.js">../js/contact.js</script>
+     <!-- Firebase Auth Logic -->
+    <script type="module" src="./js/auth.js"></script>
+
+    <!-- External Scripts -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+</body>
+</html>
